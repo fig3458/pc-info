@@ -1,6 +1,8 @@
 # pc-info
 
-轻量原生 Win32 电脑信息查看器（约 30KB），无 .NET / VC++ 运行库依赖。Win7 / Win10 / Win11 双击即用。
+轻量 **原生 Win32** 电脑信息查看器（约 30KB），无 .NET / VC++ 运行库依赖。Win7 / Win10 / Win11 双击即用。
+
+适合巡检、贴标签、远程协助前快速确认本机信息。
 
 ## 显示内容
 
@@ -9,14 +11,13 @@
 - CPU、内存
 - 系统版本
 
-## 使用
+## 下载与使用
 
-直接运行 `pc-info.exe`：
-
-- `Esc` / `Alt+F4` 关闭
-- `F5` 刷新
-
-也可到 [Releases](../../releases) 下载发布包。
+1. 到 [Releases](https://github.com/fig3458/pc-info/releases) 下载 `pc-info.exe`
+2. 双击运行
+3. 快捷键：
+   - `F5` 刷新
+   - `Esc` / `Alt+F4` 关闭
 
 ## 自行编译
 
@@ -26,4 +27,8 @@
 build.bat
 ```
 
-产物：`release\pc-info.exe`，并复制到仓库根目录 `pc-info.exe`。
+产物：`release\pc-info.exe`（并复制到仓库根目录）。
+
+## 许可证
+
+[MIT](LICENSE)
