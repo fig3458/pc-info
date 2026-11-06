@@ -1,0 +1,6 @@
+*.exe
+release/
+.vs/
+*.user
+*.suo
+Thumbs.db
